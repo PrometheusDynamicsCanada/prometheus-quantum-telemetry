@@ -1,0 +1,12 @@
+{
+  "backend": "ibm_kingston",
+  "created": "2026-06-13T09:28:33.398869Z",
+  "estimated_running_time_seconds": 57.572233786,
+  "id": "d8mi5g832u0s73fb9130",
+  "cost": 600,
+  "state": {
+    "status": "Completed"
+  },
+  "status": "Completed",
+  "evidence_note": "Request payload, embedded circuit serialization, and account identifiers intentionally omitted from the public package."
+}
