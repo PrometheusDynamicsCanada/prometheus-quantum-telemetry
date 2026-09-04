@@ -1,0 +1,12 @@
+{
+  "backend": "ibm_fez",
+  "created": "2026-08-19T03:05:22.009087Z",
+  "estimated_running_time_seconds": 124.959432869,
+  "id": "da2hqsc3jnrc73aduof0",
+  "cost": 600,
+  "state": {
+    "status": "Completed"
+  },
+  "status": "Completed",
+  "evidence_note": "Request payload, embedded circuit serialization, and account identifiers intentionally omitted from the public package."
+}

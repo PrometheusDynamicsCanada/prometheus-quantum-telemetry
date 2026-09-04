@@ -1,0 +1,12 @@
+{
+  "backend": "ibm_marrakesh",
+  "created": "2026-08-17T10:01:52.296316Z",
+  "estimated_running_time_seconds": 265.273535332,
+  "id": "da1do46g52gs73clh7c0",
+  "cost": 600,
+  "state": {
+    "status": "Completed"
+  },
+  "status": "Completed",
+  "evidence_note": "Request payload, embedded circuit serialization, and account identifiers intentionally omitted from the public package."
+}
