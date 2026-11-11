@@ -1,0 +1,37 @@
+=================================================================
+PROMETHEUS ENGINE: HARDWARE ROUTING BENCHMARK
+=================================================================
+
+[HARDWARE PARAMETERS]
+- Mainframe:       ibm_fez
+- Architecture:    Superconducting Qubits
+- Circuit Base:    5-Qubit Asymmetrical EfficientSU2
+- Total Shots:     2000 per compiler
+- Executed:        May 15, 2026 (Back-to-back calibration window)
+
+-----------------------------------------------------------------
+[CONTROL]: IBM NATIVE COMPILER (LEVEL 3)
+-----------------------------------------------------------------
+Job ID: d83f31ugbeec73amsoig
+-> Thermal Spread: 32 / 32 unique bitstrings generated
+-> True Signal:    688 / 2000 shots retained in Top 5 states
+-> Top 5 Distribution:
+      11100: 179
+      11101: 145
+      10010: 143
+      10111: 114
+      10000: 107
+
+-----------------------------------------------------------------
+[TEST]: PROMETHEUS JIT ROUTER (LEVEL 0 OVERRIDE)
+-----------------------------------------------------------------
+Job ID: d83c1pg0bvlc73d38p2g
+-> Thermal Spread: 22 / 32 unique bitstrings generated
+-> True Signal:    1861 / 2000 shots retained in Top 5 states
+-> Top 5 Distribution:
+      00000: 915
+      11111: 808
+      11110: 59
+      00001: 50
+      10111: 29
+
